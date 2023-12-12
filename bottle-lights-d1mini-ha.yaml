@@ -2,7 +2,7 @@ substitutions:
   name: bottle-lights
   friendly_name: Bottle Lights
   project_name: "grayfrost90.bottle lights"
-  project_version: "1.0.1"
+  project_version: "1.0.2"
 
 esphome:
   name: ${name}
