@@ -1,0 +1,67 @@
+substitutions:
+  name: bottle-lights
+  friendly_name: Bottle Lights
+  project_name: "grayfrost90.bottle lights"
+  project_version: "1.0.1"
+
+esphome:
+  name: ${name}
+  friendly_name: ${friendly_name}
+  name_add_mac_suffix: true
+  project:
+    name: ${project_name}
+    version: ${project_version}
+
+esp8266:
+  board: d1_mini
+  
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+
+# Enable Over-the-Air updates
+ota:
+
+wifi:
+  # Setup Access Point
+  ap:
+
+captive_portal:
+
+improv_serial:
+
+dashboard_import:
+  package_import_url: github://grayfrost90/bottle-lights/bottle-lights-d1mini-ha.yaml@main
+  import_full_config: false
+
+output:
+  ####OUTPUT FOR LIGHT CONFIG####
+  - id: bottle_light
+    platform: esp8266_pwm
+    pin: D8
+
+light:
+  ####LIGHT CONFIG####
+  - platform: monochromatic
+    name: "Bottle Lights"
+    output: bottle_light
+    icon: mdi:bottle-tonic     
+
+button:
+  ####RESTART BUTTON####
+  - platform: restart
+    name: Restart
+    id: restart_switch
+
+binary_sensor:
+  ####Device Status####
+  - platform: status
+    name: Status
+
+sensor:
+  ####Wifi Signal####
+  - platform: wifi_signal
+    name: WiFi Signal
+    update_interval: 60s 
