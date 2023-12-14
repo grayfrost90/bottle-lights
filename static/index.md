@@ -1,10 +1,10 @@
 # About
 
-Add some information about your project here.
+(Bottles+Lights+ESPHome)*Home Assistant=No more dead batteries, and automated lights
 
 # Installation
 
-You can use the button below to install the pre-built firmware directly to your device via USB from the browser.
+You can use the button below to install the pre-built firmware directly to your bottle lights device via USB from the browser.
 
 <esp-web-install-button manifest="./manifest.json"></esp-web-install-button>
 
