@@ -1,8 +1,7 @@
 # Bottle Lights
 
 Run bottle lights directly from an ESP8266 device, powered by ESPHome
-![IMG_20231215_084308_HDR](https://github.com/grayfrost90/bottle-lights/assets/84717239/ef0a3013-d26a-4444-8046-87d155b039e1)
-<img src="[Bottle Lights](https://github.com/grayfrost90/bottle-lights/assets/84717239/ef0a3013-d26a-4444-8046-87d155b039e1)" width=50% height=50%>
+<img src="https://github.com/grayfrost90/bottle-lights/assets/84717239/ef0a3013-d26a-4444-8046-87d155b039e1" width=50% height=50%>
 
 ## Build Instructions
 
