@@ -5,7 +5,7 @@ Run bottle lights directly from an ESP8266 device, powered by ESPHome
 
 ## Build Instructions
 
-1. Open [static/index.md](static/index.md)
+1. Open [https://grayfrost90.github.io/bottle-lights/](https://grayfrost90.github.io/bottle-lights/)
 2. Plug in ESP control box device
 3. Click the connect button
 4. Pick the serial device from the list
