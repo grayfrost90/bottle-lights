@@ -9,13 +9,15 @@ Run bottle lights directly from an ESP8266 device, powered by ESPHome
 2. Plug in ESP control box device
 3. Click the connect button
 4. Pick the serial device from the list
+5. The installer should now connect to the device and install the firmware
 
 ## Setup Instructions
 
 1. Connect the ESP control box to the bottle lights and a power source
-2. Once booted, look for a WiFi network called "Bottle-Lights-xxxxxx" and connect to it
-3. This will open a captive portal page to configure the WiFi. If it doesn't connect, browse to [http://192.168.4.1](http://192.168.4.1)
-4. Enter the WiFi details and save, the ESP will now reboot and should connect to your WiFi
+2. The installer should take you through the WiFi setup, if not do the following:
+   1. Once booted, look for a WiFi network called "Bottle-Lights-xxxxxx" and connect to it
+   2. This will open a captive portal page to configure the WiFi. If it doesn't connect, browse to [http://192.168.4.1](http://192.168.4.1)
+   3. Enter the WiFi details and save, the ESP will now reboot and should connect to your WiFi
 
 ## Home Assistant Setup
 
