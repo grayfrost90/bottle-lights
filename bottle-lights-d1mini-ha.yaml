@@ -2,7 +2,7 @@ substitutions:
   name: bottle-lights
   friendly_name: Bottle Lights
   project_name: "grayfrost90.bottle lights"
-  project_version: "1.0.2"
+  project_version: "1.0.3"
 
 esphome:
   name: ${name}
@@ -23,7 +23,8 @@ api:
 
 # Enable Over-the-Air updates
 ota:
-
+  platform: esphome
+  
 wifi:
   # Setup Access Point
   ap:
