@@ -2,7 +2,7 @@
   "chipFamily": "ESP8266",
   "ota": {
     "path": "bottle-lights-esp8266/bottle-lights-esp8266.ota.bin",
-    "md5": "1ed50a42f91f0f1856695872915bcb2f"
+    "md5": "efda6e96601ed9fb17f779320dff4f2e"
   },
   "parts": [
     {
